@@ -27,9 +27,13 @@ twitter_username:
 github_username:  rerme4
 
 # Build settings
-theme: minima
+theme: hitchens-theme
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 20
+paginate_path: "/page/:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
